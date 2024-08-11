@@ -1,14 +1,14 @@
 #Case -1: Print string in reverse without loops
-a = 'good morning'
-n = len(a)
-b = ''
-for i in range(n-1,-1,-1):
-    b += a[i]
-print(b)  #gninrom doog
+# a = 'good morning'
+# n = len(a)
+# b = ''
+# for i in range(n-1,-1,-1):
+#     b += a[i]
+# print(b)  #gninrom doog
 
 #same with concept of slicing.
-a ='good morning'
-print(a[::-1])
+# a ='good morning'
+# print(a[::-1])
 
 # good morning to morning good. without using any functions.
 
@@ -77,7 +77,30 @@ print(a[::-1])
 
 
 
+# a = 'good morning'
+# #print(a[::-1])
+#
+# b = a.split()
+# c =[i[::-1] for i in b]
+# print(' '.join(c))
 
+a='good morning'
+b=''
+c=[]
+for i in range(len(a)):
+    if a[i] != ' ':
+        b += a[i]
+    else:
+        d=''
+        for i in range(len(b)-1,-1,-1):
+            d += b[i]
+        c.append(d)
+        b=''
+d=''
+for i in range(len(b)-1,-1,-1):
+    d += b[i]
+c.append(d)
+print(' '.join(c))
 
 
 
