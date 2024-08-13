@@ -20,15 +20,28 @@
 # r ={char:count for char,count in key_value.items() if count >1 }
 # print(r)
 
-a='ganesh ankarao'
+# a='ganesh ankarao'
+# d ={}
+# for i in a:
+#     if i in d:
+#         d[i] += 1
+#     else:
+#         d[i] =1
+# dic = {i:count for i,count in d.items() if count >1}
+# print(dic)
+
+
+
+a = 'apple'
 d ={}
 for i in a:
     if i in d:
         d[i] += 1
     else:
-        d[i] =1
-dic = {i:count for i,count in d.items() if count >1}
-print(dic)
+        d[i] = 1
+print(d)
+c = {i:count for i,count in d.items() if count >1}
+print(c)
 
 
 
