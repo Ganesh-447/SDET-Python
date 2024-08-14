@@ -8,3 +8,13 @@ if number > 1:
         print(f'{number} is prime')
 else:
     print(f'{number} is not prime')
+a = int(input('enter your number'))
+
+if a >2:
+    for i in range(2, a//2+1):
+        if i % a == 0:
+            print('number is not prime')
+        else:
+            print('number is prime')
+else:
+    print('number is not prime')
