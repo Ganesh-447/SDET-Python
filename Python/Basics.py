@@ -13,7 +13,7 @@ print(my_string)
 print(my_string.split())
 
 
-name = 'Ganesh Ankarao Grandhi'
+name = 'Testing'
 b = name.split()
 print(b[0])
 print(type(b))
