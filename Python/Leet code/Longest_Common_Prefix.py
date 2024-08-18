@@ -1,16 +1,20 @@
-str_1 =["flower", "flow", "flight"]
+strs = ['flower', 'flow', 'flight']
+prefix = strs[0]
 
-if not str_1:
-    print('')
-prefix = str_1[0]
-#print (prefix)
-for string in str_1[1: ]:
-    while string[:len(prefix)] != prefix:
+if not strs:
+    print("")
+
+for i in strs[1:]:
+
+    while i[:len(prefix)] != prefix:
 
         prefix = prefix[:-1]
+
         if not prefix:
-            print('')
+            print("")
 print(prefix)
+
+
 
 
 
