@@ -6,7 +6,7 @@ class Ganesh(object):
         self.age = age
 
 
-    def testing(self,location):
+    def test(self,location):
 
         print(f'{self.name} is name')
         print(f'{self.age} is age')
@@ -14,7 +14,7 @@ class Ganesh(object):
 
 a = Ganesh('many',23)
 
-a.testing('newyork')
+a.test('newyork')
 
 b = Ganesh('sai',34)
-b.testing('dkdkd')
+b.test('dkdkd')
