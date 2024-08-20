@@ -12,5 +12,4 @@ elif x[-1] == "n" and len(x.split('o')) >= 3:
     print(x.lower()[4:])
 
 else:
-
-	print((x + ' ') * 3 + "!")
+   print((x + ' ') * 3 + "!")
