@@ -21,15 +21,29 @@
 
 
 
-number = int(input('enter a number'))
-if number > 1:
-    for i in range(2,(number//2)+1):
+# number = int(input('enter a number'))
+# if number > 1:
+#     for i in range(2,(number//2)+1):
+#
+#         if (number % i == 0):
+#             print('its not a prime number')
+#             break
+#     else:
+#          print('its a prime')
+# else:
+#     print('number is not prime')
 
-        if (number % i == 0):
-            print('its not a prime number')
+
+
+
+number = int(input('enter the number'))
+
+if number >1:
+    for i in range(2,(number//2)+1):
+        if number % i == 0:
+            print('not prime')
             break
     else:
-         print('its a prime')
+        print('its prime')
 else:
-    print('number is not prime')
-
+    print('enter more than 1')
