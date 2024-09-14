@@ -21,6 +21,7 @@ while number > 10:
         number = number //10
     number = sum
 print(f'The sum of the digits of the given number is {number}')
+print(f'Testing')
 
 
 
